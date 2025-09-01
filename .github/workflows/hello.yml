@@ -1,7 +1,6 @@
 name: Hello Workflow
 
-on:
-  push:
+on: [push]
 
 jobs:
   say_hello:
@@ -9,3 +8,4 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "👋 Hello from GitHub Actions!"
+
